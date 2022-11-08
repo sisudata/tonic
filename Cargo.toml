@@ -24,5 +24,7 @@ members = [
 ]
 
 [patch.crates-io]
-prost-build = { git = "https://github.com/tokio-rs/prost/", branch = "lucio/format" }
-
+prost = { git = "https://github.com/sisudata/prost", rev = "c33982ca4abcdaf2c16b6ded1297587fd1b60678" }
+prost-types = { git = "https://github.com/sisudata/prost", rev = "c33982ca4abcdaf2c16b6ded1297587fd1b60678" }
+prost-build = { git = "https://github.com/sisudata/prost", rev = "c33982ca4abcdaf2c16b6ded1297587fd1b60678" }
+prost-derive = { git = "https://github.com/sisudata/prost", rev = "c33982ca4abcdaf2c16b6ded1297587fd1b60678" }
